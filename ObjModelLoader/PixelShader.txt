@@ -1,0 +1,28 @@
+#version 150
+uniform sampler2D tex;
+uniform vec3 lightPos;
+
+in vec2 fragTexCoord;
+in vec3 fragNormal;
+in vec3 fragVert;
+
+out vec4 finalColor;
+
+// Не сделано множественное освещение и его настройка.
+void main()
+{
+    vec3 normal = normalize(fragNormal);
+
+    vec3 fragPosition = vec3(vec4(fragVert, 1));
+
+    vec3 surfaceToLight = lightPos - fragPosition;
+
+    float brightness = dot(normal, surfaceToLight) / (length(surfaceToLight) * length(normal));
+
+    brightness = clamp(brightness, 0, 1);
+
+    vec3 intensitie = vec3(1.0, 1.0, 1.0);
+    vec4 surfaceColor = texture(tex, fragTexCoord);
+
+    finalColor = vec4(brightness * intensitie * surfaceColor.rgb, surfaceColor.a);
+}

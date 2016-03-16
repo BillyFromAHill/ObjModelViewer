@@ -1,0 +1,22 @@
+#version 150
+in vec4 vertex;
+in vec3 normal;
+in vec2 texCoord;
+
+out vec3 fragVert;
+out vec3 fragNormal;
+out vec2 fragTexCoord;
+
+uniform mat4 projectionMatrix;
+uniform mat4 modelMatrix;
+uniform mat4 viewMatrix;
+uniform mat3 normalMatrix;
+
+// Не сделано использование матрицы модели для нормалей.
+void main()
+{
+    fragVert = vertex.xyz;
+    fragNormal = normal;
+    fragTexCoord = texCoord;
+    gl_Position = projectionMatrix * viewMatrix * modelMatrix * vertex;
+}

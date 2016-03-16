@@ -1,0 +1,860 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{c25e729c-b210-48b9-87dc-e1b78b782948}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{4e1399a5-2c38-4adf-bddc-d6478abf0811}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{6a331e75-cac1-4f27-ad22-e9d00859582a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\glm">
+      <UniqueIdentifier>{80c4921a-f8b4-4aec-b45a-83532b45ecc8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="objmodelloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_objmodelloader.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_objmodelloader.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_objmodelloader.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjModelViewWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ObjModelViewWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ObjModelViewWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glm\detail\glm.cpp">
+      <Filter>Header Files\glm</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="objmodelloader.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="objmodelloader.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="objmodelloader.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ObjModelViewWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ObjModel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\common.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\func_common.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\func_exponential.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\func_geometric.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\func_integer.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\func_matrix.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\func_noise.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\func_packing.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\func_trigonometric.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\func_vector_relational.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\intrinsic_common.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\intrinsic_exponential.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\intrinsic_geometric.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\intrinsic_integer.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\intrinsic_matrix.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\intrinsic_trigonometric.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\intrinsic_vector_relational.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\precision.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\setup.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_float.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_gentype.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_half.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_int.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_mat.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_mat2x2.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_mat2x3.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_mat2x4.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_mat3x2.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_mat3x3.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_mat3x4.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_mat4x2.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_mat4x3.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_mat4x4.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_vec.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_vec1.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_vec2.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_vec3.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_vec4.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\_features.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\_fixes.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\_noise.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\_swizzle.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\_swizzle_func.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\_vectorize.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\exponential.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\ext.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\fwd.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\geometric.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\glm.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\bitfield.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\constants.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\epsilon.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\integer.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\matrix_access.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\matrix_integer.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\matrix_inverse.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\matrix_transform.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\noise.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\packing.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\quaternion.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\random.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\reciprocal.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\round.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\type_precision.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\type_ptr.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\ulp.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\vec1.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\associated_min_max.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\bit.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\closest_point.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\color_space.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\color_space_YCoCg.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\common.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\compatibility.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\component_wise.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\dual_quaternion.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\euler_angles.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\extend.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\extented_min_max.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\fast_exponential.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\fast_square_root.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\fast_trigonometry.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\gradient_paint.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\handed_coordinate_space.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\integer.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\intersect.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\io.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\log_base.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\matrix_cross_product.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\matrix_decompose.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\matrix_interpolation.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\matrix_major_storage.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\matrix_operation.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\matrix_query.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\matrix_transform_2d.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\mixed_product.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\multiple.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\norm.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\normal.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\normalize_dot.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\number_precision.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\optimum_pow.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\orthonormalize.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\perpendicular.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\polar_coordinates.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\projection.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\quaternion.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\range.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\raw_data.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\rotate_normalized_axis.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\rotate_vector.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\scalar_multiplication.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\scalar_relational.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\simd_mat4.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\simd_quat.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\simd_vec4.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\spline.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\std_based_type.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\string_cast.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\transform.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\transform2.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\type_aligned.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\vector_angle.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\vector_query.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\wrap.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\integer.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\mat2x2.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\mat2x3.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\mat2x4.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\mat3x2.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\mat3x3.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\mat3x4.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\mat4x2.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\mat4x3.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\mat4x4.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\matrix.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\packing.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\trigonometric.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\vec2.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\vec3.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\vec4.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\vector_relational.hpp">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\func_common.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\func_exponential.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\func_geometric.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\func_integer.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\func_matrix.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\func_noise.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\func_packing.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\func_trigonometric.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\func_vector_relational.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\intrinsic_common.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\intrinsic_exponential.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\intrinsic_geometric.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\intrinsic_integer.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\intrinsic_matrix.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\intrinsic_trigonometric.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\intrinsic_vector_relational.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_gentype.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_half.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_mat.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_mat2x2.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_mat2x3.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_mat2x4.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_mat3x2.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_mat3x3.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_mat3x4.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_mat4x2.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_mat4x3.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_mat4x4.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_vec.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_vec1.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_vec2.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_vec3.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_vec4.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_vec4_avx.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_vec4_avx2.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\detail\type_vec4_sse2.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\bitfield.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\constants.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\epsilon.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\integer.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\matrix_access.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\matrix_inverse.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\matrix_transform.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\noise.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\packing.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\quaternion.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\random.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\reciprocal.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\round.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\type_precision.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\type_ptr.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\ulp.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtc\vec1.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\associated_min_max.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\bit.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\closest_point.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\color_space.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\color_space_YCoCg.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\common.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\compatibility.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\component_wise.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\dual_quaternion.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\euler_angles.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\extend.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\extented_min_max.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\fast_exponential.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\fast_square_root.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\fast_trigonometry.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\gradient_paint.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\handed_coordinate_space.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\integer.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\intersect.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\io.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\log_base.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\matrix_cross_product.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\matrix_decompose.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\matrix_interpolation.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\matrix_major_storage.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\matrix_operation.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\matrix_query.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\matrix_transform_2d.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\mixed_product.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\multiple.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\norm.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\normal.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\normalize_dot.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\number_precision.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\optimum_pow.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\orthonormalize.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\perpendicular.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\polar_coordinates.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\projection.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\quaternion.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\raw_data.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\rotate_normalized_axis.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\rotate_vector.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\scalar_relational.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\simd_mat4.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\simd_quat.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\simd_vec4.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\spline.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\std_based_type.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\string_cast.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\transform.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\transform2.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\type_aligned.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\vector_angle.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\vector_query.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glm\gtx\wrap.inl">
+      <Filter>Header Files\glm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\ui_objmodelloader.h">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PixelShader.txt">
+      <Filter>Shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VertexShader.txt">
+      <Filter>Shaders</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
